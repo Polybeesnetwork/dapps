@@ -1,16 +1,17 @@
-# home.metamask.io
+# home.polybees.network
+![cat](https://user-images.githubusercontent.com/86224692/136092862-6e51a29f-f901-4ba0-8152-123b6baa8ac2.gif)
 
 ## Contributing
 
 ### Managing featured dapps
 
 You need to submit a pull request to this repo with your changes to the file:
-https://github.com/MetaMask/dapps/blob/master/src/data/featured-dapps.js
+https://github.com/polybees.network/dapps/blob/master/src/data/featured-dapps.js
 
 ### Managing dapps inside categories
 
 You need to submit a pull request to this repo with your changes to the file:
-https://github.com/MetaMask/dapps/blob/master/src/data/all-dapps.js
+https://github.com/polybees.network/dapps/blob/master/src/data/all-dapps.js
 
 ### Dapp icons
 
@@ -42,6 +43,20 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### Deployments
+
+- Make sure you have the netlify client configured with your credentials and you have access to the project.
+
+#### Staging
+
+- `npm run deploy`
+
+#### Production
+
+- `npm run deploy:prod`
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
